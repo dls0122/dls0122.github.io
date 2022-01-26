@@ -1,0 +1,32 @@
+import numpy as np
+import time
+
+
+n1 = 128
+n2 = 256
+runtime1 = [] #for matrix elements are integers 
+runtime2 = [] #for matrix elements are real numbers
+result1 = np.zeros([n1,n2])
+result2 = np.zeros([n1,n2])
+
+A1 = np.random.randint(0, 10, (n1, n2))
+B1 = np.random.randint(0, 10, (n2, n1))
+A2 = np.random.rand(n1, n2)
+B2 = np.random.rand(n2, n1)
+start1 = time.perf_counter()
+for i in range(len(A1)):
+    for j in range(len(B1[0])):
+        for k in range(len(B1)):
+            result1[i][j] += A1[i][k] * B1[k][j]
+end1 = time.perf_counter()
+runtime1.append(end1 - start1)
+start2 = time.perf_counter()
+for i in range(len(A2)):
+    for j in range(len(B2[0])):
+        for k in range(len(B2)):
+            result2[i][j] += A2[i][k] * B2[k][j]
+end2 = time.perf_counter()
+runtime2.append(end2 - start2)
+
+print(runtime1)    
+print(runtime2)  

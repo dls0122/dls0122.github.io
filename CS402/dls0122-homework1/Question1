@@ -1,0 +1,16 @@
+#1.a
+data1 <- read.csv("http://www.cs.iit.edu/~virgil/cs470/varia/traces/benchmarks/spice.din", header=FALSE, sep=" ")
+data1_column2_hex_char <- as.character(data1$V2) 
+data1_column2_hex <- as.hexmode(data1_column2_hex_char) 
+spice.address <- as.integer(data1_column2_hex)
+hist(spice.address, col="black")
+
+data2 <- read.csv("http://www.cs.iit.edu/~virgil/cs470/varia/traces/benchmarks/tex.din", header=FALSE, sep=" ")
+data2_column2_hex_char <- as.character(data2$V2) 
+data2_column2_hex <- as.hexmode(data2_column2_hex_char) 
+tex.address <- as.integer(data2_column2_hex)
+hist(tex.address, col="blue")
+
+#1.b
+table(unlist(data1$V1))
+table(unlist(data2$V1))

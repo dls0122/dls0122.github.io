@@ -1,0 +1,29 @@
+import numpy as np
+import time
+
+
+n1 = 512
+n2 = 2048
+runtime1 = [] #for matrix elements are integers 
+runtime2 = [] #for matrix elements are real numbers
+
+
+A1 = np.random.randint(0, 10, (n1, n2))
+B1 = np.random.randint(0, 10, (n2, n1))
+A2 = np.random.rand(n1, n2)
+B2 = np.random.rand(n2, n1)
+matA1 = np.mat(A1)
+matB1 = np.mat(B1)
+matA2 = np.mat(A2)
+matB2 = np.mat(B2)
+start1 = time.perf_counter()
+C1 = matA1*matB1
+end1 = time.perf_counter()
+runtime1.append(end1 - start1)
+start2 = time.perf_counter()
+C2 = matA2*matB2
+end2 = time.perf_counter()
+runtime2.append(end2 - start2)
+
+print(runtime1)    
+print(runtime2)   
