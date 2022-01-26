@@ -1,4 +1,4 @@
-<br>CS 401 Syllabus
+<br>CS 401 ([CS331](https://moss.cs.iit.edu/cs331/)) Syllabus
 <br>Course Objectives
 <br>Explain, implement, and apply the following data-structures:
 
