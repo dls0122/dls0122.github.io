@@ -22,4 +22,4 @@
 <br>Based on the retail price of the two systems, which one is more cost effective (5)?
 
 <br>(b) Change your multiplication algorithm and repeat the steps above; for instance, if you used the the naive multiplication algorith with the column in the inner loop, then just use the same algorithm with the row in the inner loop (same scoring as part a).
-<br>Make sure your work includes a description of the two systems (manufacturer, CPU type, amount of memory, operating system, etc.) and of the compiler used (5). Attach the <br>source code, the tables with your time measurements for your work, and a link to your repository such that we can check-out the code, build, and execute (5).
+<br>Make sure your work includes a description of the two systems (manufacturer, CPU type, amount of memory, operating system, etc.) and of the compiler used (5). Attach the source code, the tables with your time measurements for your work, and a link to your repository such that we can check-out the code, build, and execute (5).
