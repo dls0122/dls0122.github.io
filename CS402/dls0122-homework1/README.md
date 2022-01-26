@@ -4,7 +4,7 @@
 <br>[tex.din](http://www.cs.iit.edu/~virgil/cs470/varia/traces/benchmarks/tex.din)
 <br>The first file contains the trace obtained by executing Spice, the popular general-purpose, open-source analog electronic circuit simulator, and the second one comes from TeX, the ever so popular typesetting application.
 
-<br>Each line in the file has two fields: the first field indicates what kind of operation the CPU performs (read, write, etc.), and the second field is the address. Here is <br>what the number in the first field means:
+<br>Each line in the file has two fields: the first field indicates what kind of operation the CPU performs (read, write, etc.), and the second field is the address. Here is what the number in the first field means:
 <br>0: read data
 <br>1: write data
 <br>2: instruction fetch
