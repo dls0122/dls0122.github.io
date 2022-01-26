@@ -17,11 +17,11 @@
 
 
 
-<br>2. (a) Write a program, using your favorite programming language, that multiplies two rectangular matrices -- please no square matrices -- whose elements are randomly <br>generated. You will have two versions of the program, one in which matrix elements are integers and another one where they are real numbers (double) (2x15 points).
+<br>2. (a) Write a program, using your favorite programming language, that multiplies two rectangular matrices -- please no square matrices -- whose elements are randomly generated. You will have two versions of the program, one in which matrix elements are integers and another one where they are real numbers (double) (2x15 points).
 
-<br>You will compile and run the programs on two different systems -- most likely one of them will be your own desktop/laptop and the other one a computer in the lab, or <br>otherwise on one of the UNIX computers IIT makes available to its students.
+<br>You will compile and run the programs on two different systems -- most likely one of them will be your own desktop/laptop and the other one a computer in the lab, or otherwise on one of the UNIX computers IIT makes available to its students.
 
-<br>Measure the time it takes each program to complete (2x5) and then compare the performance of the two systems (5). Since the matrices are randomly generated, you will have <br>to run the program several times, measure the running time and then take the average. Also the running time has to be significantly large (many seconds) to avoid <br>measuring errors; this means you will have to work with matrices that have at least hundreds of lines and columns.
+<br>Measure the time it takes each program to complete (2x5) and then compare the performance of the two systems (5). Since the matrices are randomly generated, you will have to run the program several times, measure the running time and then take the average. Also the running time has to be significantly large (many seconds) to avoid measuring errors; this means you will have to work with matrices that have at least hundreds of lines and columns.
 
 <br>Is the performance ratio the same as the clock rate ratio of the two systems (5)? Explain. 
 <br>Based on the retail price of the two systems, which one is more cost effective (5)?
