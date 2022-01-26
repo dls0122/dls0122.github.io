@@ -1,22 +1,21 @@
 1. (a) Using trace files, i.e. files that contain addresses issued by some CPU to execute some application(s), draw the histogram of address distribution for each of them (2x20 points). On the Ox axis of the plot you will have the address number (don't start with zero, rather with the smallest address you find in the file and go up to the maximum address in the file). On the Oy axis you will have the number of occurrences for each particular address.
-
 Comment based on the histograms (5). The files to use are:
-
-
 [spice.din](http://www.cs.iit.edu/~virgil/cs470/varia/traces/benchmarks/spice.din)
 [tex.din](http://www.cs.iit.edu/~virgil/cs470/varia/traces/benchmarks/tex.din)
 The first file contains the trace obtained by executing Spice, the popular general-purpose, open-source analog electronic circuit simulator, and the second one comes from TeX, the ever so popular typesetting application.
 
 Each line in the file has two fields: the first field indicates what kind of operation the CPU performs (read, write, etc.), and the second field is the address. Here is what the number in the first field means:
-
 0: read data
 1: write data
 2: instruction fetch
 The second field is the address being referenced: the address is a hexadecimal byte-address between 0 and ULONG_MAX inclusively.
 
+
 (b) What is the frequency of writes (5)? What is the frequency of reads (5)? Please comment on these results (5).
 
 HINT: Linux has lots of great utilities, such as awk, sort, gnuplot, that may come handy in solving this problem.
+
+
 
 2. (a) Write a program, using your favorite programming language, that multiplies two rectangular matrices -- please no square matrices -- whose elements are randomly generated. You will have two versions of the program, one in which matrix elements are integers and another one where they are real numbers (double) (2x15 points).
 
