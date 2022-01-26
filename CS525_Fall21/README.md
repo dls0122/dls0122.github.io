@@ -1,10 +1,3 @@
-Files list:
-basicstats.c
-small.txt
-large.txt
+Databases management systems are a crucial part of most large-scale industry and open-source systems. This course provides comprehensive coverage of issues associated with database system development and an in-depth examination of structures and techniques used in contemporary database management systems (DBMSs). Students will learn about the inner workings of these exciting systems: Which algorithms are used? What are typical architectures used to build a system as complex as a DBMS? What are implementation strategies? These questions and more will be answered during the course.
 
-To build the exe, use the following command (by using mingw-w64): gcc -o Sp-Lab-3 basicstats.c
-
-To execute the program and read the two txt files(by using mingw-w64):
-Sp-Lab-3 small.txt
-Sp-Lab-3 large.txt
+The course is highly applied, emphasizing practical skills and habits through a series of programming assignments during which students will develop their own tiny DBMS like engine. We will cover the most important aspects/components of a DBMS: storage and buffer management, indexing, query optimization, query execution, and concurrency control and recovery.
