@@ -21,6 +21,9 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dls0122)](https://github.com/anuraghazra/github-readme-stats)
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
