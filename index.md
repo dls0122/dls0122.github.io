@@ -19,10 +19,7 @@ Syntax highlighted code block
 - List
 
 1. Numbered
-2. List
-
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dls0122)](https://github.com/anuraghazra/github-readme-stats)
+2.[My GitHub stats](https://github-readme-stats.vercel.app/api?username=dls0122)](https://github.com/anuraghazra/github-readme-stats)
 
 **Bold** and _Italic_ and `Code` text
 
