@@ -1,33 +1,12 @@
-## Welcome to GitHub Pages
+### Hello!
+I'm Shansi Dong, a Master's student major in Computer Science| Ph.D. major in Physics.
+![Shansi Dong's GitHub stats](https://github-readme-stats.vercel.app/api?username=dls0122&show_icons=true&theme=tokyonight)
+> **Note:** Currently, this project includes Computer Science resources mostly in English.
+> 
 
-You can use the [editor on GitHub](https://github.com/dls0122/shansidong.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dls0122)](https://github.com/anuraghazra/github-readme-stats)
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dls0122/shansidong.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<br>[CS50:Introduction to Computer Science|Harvard University](https://cs50.harvard.edu/college/2021/fall/)
+<br>[Introduction to Algorithms(MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+<br>[Operating System Engineering(MIT)](https://pdos.csail.mit.edu/6.828/2020/index.html)
+<br>[Distributed Systems(MIT)](https://pdos.csail.mit.edu/6.824/)
+<br>[Database Systems(MIT)](http://dsg.csail.mit.edu/6.830/)
