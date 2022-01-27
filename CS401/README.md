@@ -8,6 +8,7 @@
 <br>expression trees,
 <br>binary search trees,
 <br>heaps, and hash tables
+
 <br>Analyze the time and space complexity of algorithms using asymptotic upper bounds (big-O notation).
 <br>Explain and use references and linked structures.
 <br>Outline basic object-oriented design concepts: composition, inheritance, polymorphism.
